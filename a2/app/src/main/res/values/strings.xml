@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">M3</string>
+
+    <string-array name="state_array">
+        <item>Vic</item>
+        <item>NSW</item>
+        <item>Qld</item>
+        <item>SA</item>
+        <item>Tas</item>
+        <item>WA</item>
+    </string-array>
+
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartLine"
+        android:layout_width="344dp"
+        android:layout_height="174dp" />
+
+    <TextView
+        android:id="@+id/tvStartdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Date" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <TextView
+        android:id="@+id/tvEnddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Date" />
+
+    <Button
+        android:id="@+id/btEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart1"
+        android:layout_width="352dp"
+        android:layout_height="131dp"
+        android:layout_above="@+id/chartPie" />
+
+    <Spinner
+        android:id="@+id/spChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btSubmitpie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Pie" />
+
+    <Button
+        android:id="@+id/btSubmitchart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Chart" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
